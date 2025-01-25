@@ -26,16 +26,23 @@
         </div>
     </nav>
 
+
+
+
+
     <div class="container">
-
-        <div class="col">
-            <img src="{{ asset('Immagini/emoticonHand.png') }}" alt="" width="100" height="100">
-            <p id="titolone">Ciao a tutti, sono <strong>Davide</strong></p>
+        <div class="row">
+            <div class="d-flex align-items-end">
+                <img class="imgLogo" src="{{ asset('Immagini/emoticonHand.png') }}" alt="" width="50"
+                    height="50">
+                <p class="m-0 ms-2 align-self-end" id="titolone">Ciao a tutti, sono <b>Davide</b></p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1>Sono un Full stack developer da Milano, Italia!</h1>
+                </div>
+            </div>
         </div>
-
-        <h1>Sono un Full stack developer da Milano, Italia!</h1>
-
-
     </div>
 
 
